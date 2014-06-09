@@ -6,7 +6,7 @@
     <title>$title$</title>
     <authors>lotosbin</authors>
     <owners>lotosbin</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <licenseUrl>https://github.com/yuanjingtech/BinbinComponentModelDataAnnotations/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/yuanjingtech/BinbinComponentModelDataAnnotations</projectUrl>
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
