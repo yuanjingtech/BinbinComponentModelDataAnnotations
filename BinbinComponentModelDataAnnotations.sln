@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9067A0D6-A1A0-4699-87D6-E92EB2F6B850}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		packages\repositories.config = packages\repositories.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinComponentModelDataAnnotationsForNet40", "BinbinComponentModelDataAnnotations\BinbinComponentModelDataAnnotationsForNet40.csproj", "{42469832-A4FC-42D5-B059-74FA4DECEA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinComponentModelDataAnnotations.UnitTestProject", "BinbinComponentModelDataAnnotations.UnitTestProject\BinbinComponentModelDataAnnotations.UnitTestProject.csproj", "{0C43A884-6175-482B-AB9C-F71C7B12B33B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F7DD17E-E093-4664-93E8-725FF91B4554}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42469832-A4FC-42D5-B059-74FA4DECEA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42469832-A4FC-42D5-B059-74FA4DECEA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42469832-A4FC-42D5-B059-74FA4DECEA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42469832-A4FC-42D5-B059-74FA4DECEA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C43A884-6175-482B-AB9C-F71C7B12B33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C43A884-6175-482B-AB9C-F71C7B12B33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C43A884-6175-482B-AB9C-F71C7B12B33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C43A884-6175-482B-AB9C-F71C7B12B33B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Validation.5.0.505.0\lib\NET35
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ClassLibraries.vsmdi
+	EndGlobalSection
+EndGlobal
